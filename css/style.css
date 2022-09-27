@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(197, 211, 250);
+}
+
+main{
+    font-family: 'Poppins', sans-serif;
+    height: 50%;
+    width: 50%;
+    padding: 3%;
+    border-radius: 5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+    color: #fff;
+    background-color: rgb(144, 168, 236);
+    box-shadow: 5px 5px 5px #87a0f3;
+}
+
+@media (max-width: 600px){
+    main{
+        width: 90%;
+        box-shadow: none;
+    }
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.social{
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#title{
+    font-family: 'Inter', sans-serif; 
+    font-size: 25px;
+}
+
+#profile{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 3px #fff dashed;
+}
+
+.history{
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 30px;
+    margin: 4%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f09;
+}
+
+#linkedin{
+    background-color: #0e76a8;
+}
+
+#github{
+    background-color: #171515;
+}
+
+#whats{
+background-color: #128c7e;
+}
+
+#gmail{
+    background-color: #Db4a39;
+}
+
+.links{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
