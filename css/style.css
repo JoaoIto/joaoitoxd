@@ -4,7 +4,6 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    background-color: #000130;
     background-color: #150063;
     color: #fff;
 }
@@ -124,10 +123,11 @@ a {
     background-image: linear-gradient(315deg, #525dc1 0%, #28378d 74%);
 }
 
-@media screen and (max-height: 900px) {
+@media screen and (max-height: 900px) and (max-width: 1080px){
     .container {
         height: 95%;
         width: 90%;
+        background-color: #150063;
     }
 
     .card {
