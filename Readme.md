@@ -1,6 +1,11 @@
-# [InstagramNav](https://joaoito.github.io/instagramNav/)
+# InstagramNav<img height="30" src="./public/icons/instagram.png">
 
-**Este é um pequeno site que fiz para colocar de site pessoal no meu Instagram profissional! Espero que goste, desenvolvido em HTML, CSS e JS...**
+**Versão 2.0 da aplicação do site pessoal de links, [Em desenvolvimento...]!**
+
+## React com TypeScript...
+
+**Construída de base com a melhor das tecologias do mercado, que é o React, em sua sintaxe em TypeScript! Para também estudo e desenvolvimento da superset e das ferramentas...**
+
+<img src="./src/assets/talkToMoon.svg">
 
 ---
-<img src="./assets/icons/print.png">
