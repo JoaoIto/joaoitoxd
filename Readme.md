@@ -6,6 +6,6 @@
 
 **Construída de base com a melhor das tecologias do mercado, que é o React, em sua sintaxe em TypeScript! Para também estudo e desenvolvimento da superset e das ferramentas...**
 
-<img src="./src/assets/talkToMoon.svg">
+<img src="./src/assets/TalkToMoon.svg">
 
 ---
