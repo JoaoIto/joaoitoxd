@@ -1,9 +1,7 @@
-import { title } from './index.css'
+import React from 'react';
 
-export const Header: React.Component = () => {
-    return (
-        <>
-        <h1 className={title}>Hello World! </h1>
-        </>
-    )
-}
+export const Header = () => (
+      <>
+       <h1>Hello World!</h1>
+      </>
+)
