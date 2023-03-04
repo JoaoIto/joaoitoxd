@@ -5,7 +5,7 @@ const iconUrls = {
   github:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   gmail:
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-plain.svg",
   instagram:
     "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg",
   linkedin:
@@ -36,7 +36,7 @@ export const LinkList: React.FC = () => {
 
         <Card
           url="mailto:joaovictorpfr@gmail.com?subject=Assunto"
-          color="#8991ff"
+          color="#002f55"
         >
           <img height="40" src={iconUrls.gmail} alt="Icon de email" />
           Email
