@@ -5,6 +5,3 @@
 <img src="./public/TalkToMoon.svg">
 
 ---
-=======
----
-<img src="./assets/icons/print.png">
