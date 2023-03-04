@@ -1,11 +1,10 @@
 import React from 'react';
 import { Card } from './index';
-import { links } from './index.css';
 
 export const LinkList: React.FC = () => {
   return (
     <>
-      <div className={links}>
+      <div>
           <Card url="https://www.linkedin.com/in/jo%C3%A3o-victor-p%C3%B3voa-fran%C3%A7a-97502420b/" color="#0e76a8">
             Linkedin
           </Card>

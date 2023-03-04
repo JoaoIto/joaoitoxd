@@ -1,4 +1,5 @@
 import React from "react";
+import {links, linkNo} from "./index.css"
 
 type ButtonLinkProps = {
   url: string;
@@ -8,21 +9,9 @@ type ButtonLinkProps = {
 
 export const Card: React.FC<ButtonLinkProps> = ({ url, color = "blue", children }) => {
   return (
-    <a href={url}>
-      <div style={{ 
-        backgroundColor: color, 
-        display: "flex",
-        alignItems: "center",
-        justifyContent: 'center',
-        width: "80%", 
-        padding: "10px 20px",
-        margin: "25px 10px", 
-        border: '1px solid #fafafa',
-        borderRadius: 10,
-        color: "#fff", 
-        textDecoration: "none",
-        fontFamily: 'Inter, sans-serif',
-        fontSize: '1.5rem' }}>
+    <a href={url} className={linkNo}>
+      <div className={links} style={{ 
+        backgroundColor: color}}>
       {children}
       </div>
     </a>
