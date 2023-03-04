@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { styles } from './index.css';
-import * as Typed from 'typed.js';
+import Typed from 'typed.js';
+
 interface HeaderProps {
   title: string;
 }
