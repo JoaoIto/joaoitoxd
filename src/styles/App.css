@@ -7,4 +7,5 @@ body{
     justify-content: center;
     background-color: #0b0a14;
     color: #fff;
+    overflow-x: hidden;
 }
