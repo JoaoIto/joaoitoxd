@@ -1,23 +1,21 @@
 import React from 'react';
-import Link from './index';
+import { Card } from './index';
 
-const LinkList: React.FC = () => {
+export const LinkList: React.FC = () => {
   return (
     <div>
       <h1>Links úteis</h1>
       <ul>
         <li>
-          <Link url="https://www.google.com" title="Google" />
+          <Card url="https://www.google.com" title="Google" />
         </li>
         <li>
-          <Link url="https://www.facebook.com" title="Facebook" />
+          <Card url="https://www.facebook.com" title="Facebook" />
         </li>
         <li>
-          <Link url="https://www.github.com" title="GitHub" />
+          <Card url="https://www.github.com" title="GitHub" />
         </li>
       </ul>
     </div>
   );
 };
-
-export default LinkList;
