@@ -17,7 +17,7 @@ export const LinkList: React.FC = () => {
             Instagram
           </Card>
 
-          <Card url="mailto:joaovictorpfr@gmail.com?subject=Assunto" color="#cacaca">
+          <Card url="mailto:joaovictorpfr@gmail.com?subject=Assunto" color="#8991ff">
             Email
           </Card>
       </div>
