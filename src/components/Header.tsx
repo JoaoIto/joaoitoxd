@@ -25,7 +25,7 @@ export const Header: React.FC<Props> = ({ title }) => {
     <header className={header}>
       <h3 className={subtitle}>Front-End</h3>
       <h1 className={title} ref={titleRef}></h1>
-      <img height="300" src="../../src/assets/devWeb.svg" alt="" />
+      <img height="300" src="https://raw.githubusercontent.com/JoaoIto/joaoitoxd/00953735853a57bf59adc7db1bace7d94fc0067c/src/assets/devWeb.svg" alt="" />
     </header>
   );
 };
