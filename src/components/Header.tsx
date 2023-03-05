@@ -38,7 +38,7 @@ export function Header(props: HeaderProps) {
       <h1 ref={titleRef} className={styles.title}></h1>
       <img
         height="200"
-        src="../../src/assets/correctWebsite.svg"
+        src="https://raw.githubusercontent.com/JoaoIto/joaoitoxd/22997d66364e9a913c1798a349efe6d22e2f8137/src/assets/correctWebsite.svg"
         alt=""
       />
     </header>
