@@ -20,10 +20,9 @@ export function Header(props: HeaderProps) {
 
   useEffect(() => {
     if (titleRef.current) {
-      const words = title.split(" ");
       const options: MyTypedOptions = {
-        strings: words,
-        typeSpeed: 100,
+        strings: [title],
+        typeSpeed: 50,
         backSpeed: 50,
         backDelay: 1000,
         loop: true,
@@ -34,18 +33,13 @@ export function Header(props: HeaderProps) {
       };
     }
   }, [title]);
-
   return (
     <header className={styles.header}>
       <h3 className={styles.subtitle}>Front-End</h3>
       <h1 ref={titleRef} className={styles.title}>
-        {title.split(" ").map((word, index) => (
-          <span key={index}>
-            {word}
-            {index < title.split(" ").length - 1 ? " " : ""}
-          </span>
-        ))}
-      </h1>
+  <span>{title}</span>
+</h1>
+
       <img
         height="200"
         src="https://raw.githubusercontent.com/JoaoIto/joaoitoxd/22997d66364e9a913c1798a349efe6d22e2f8137/src/assets/correctWebsite.svg"
