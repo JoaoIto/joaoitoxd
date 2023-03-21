@@ -24,7 +24,7 @@ export function Header(props: HeaderProps) {
       const options: MyTypedOptions = {
         strings: words,
         typeSpeed: 100,
-        backSpeed: 50,
+        backSpeed: 150,
         backDelay: 1000,
         loop: true,
       };
