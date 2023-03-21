@@ -1,5 +1,4 @@
 import './styles/App.css'
-import Typed from "typed.js";
 import { Header } from './components/Header'
 import { LinkList }   from './components/Link/Links'
 
