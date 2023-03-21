@@ -9,7 +9,7 @@ type ButtonLinkProps = {
 
 export const Card: React.FC<ButtonLinkProps> = ({ url, color = "blue", children }) => {
   return (
-    <a href={url} className={linkNo}>
+    <a href={url} target="_blank" rel="noopener noreferrer" className={linkNo}>
       <div className={links} style={{ 
         backgroundColor: color}}>
       {children}
