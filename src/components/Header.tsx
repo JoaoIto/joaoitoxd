@@ -6,10 +6,11 @@ interface HeaderProps {
   title: string;
 }
 
-interface MyTypedOptions{
+interface MyTypedOptions {
   strings: string[];
   typeSpeed: number;
   backSpeed: number;
+  loop: boolean;
 }
 
 export function Header(props: HeaderProps) {
@@ -22,8 +23,9 @@ export function Header(props: HeaderProps) {
         strings: [title],
         typeSpeed: 40,
         backSpeed: 50,
+        loop: true,
       };
-      const typed = new Typed(titleRef.current, options);
+      const typed = new Typed(titleRef.current.lastChild as Element, options);
       return () => {
         typed.destroy();
       };
@@ -33,7 +35,9 @@ export function Header(props: HeaderProps) {
   return (
     <header className={styles.header}>
       <h3 className={styles.subtitle}>Front-End</h3>
-      <h1 ref={titleRef} className={styles.title}></h1>
+      <h1 ref={titleRef} className={styles.title}>
+        <span>{title}</span>
+      </h1>
       <img
         height="200"
         src="https://raw.githubusercontent.com/JoaoIto/joaoitoxd/22997d66364e9a913c1798a349efe6d22e2f8137/src/assets/correctWebsite.svg"
