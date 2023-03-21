@@ -17,3 +17,7 @@ export const links = style({
   fontFamily: "Inter, sans-serif",
   fontSize: "1.5rem",
 });
+
+export const link = style({
+  width: '70%'
+});

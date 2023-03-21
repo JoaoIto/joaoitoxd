@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "./index";
+import { link } from "./index.css"
 
 const iconUrls = {
   github:
@@ -14,11 +15,11 @@ const iconUrls = {
 
 export const LinkList: React.FC = () => {
   return (
-    <>
-      <div>
+    <div>
         <Card
           url="https://www.linkedin.com/in/jo%C3%A3o-victor-p%C3%B3voa-fran%C3%A7a-97502420b/"
           color="#0e76a8"
+          
         >
           <img height="40" src={iconUrls.linkedin} alt="Icon de linkedin" />
           Linkedin
@@ -41,7 +42,6 @@ export const LinkList: React.FC = () => {
           <img height="40" src={iconUrls.gmail} alt="Icon de email" />
           Email
         </Card>
-      </div>
-    </>
+    </div>
   );
 };
