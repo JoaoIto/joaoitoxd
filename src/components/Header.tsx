@@ -23,7 +23,7 @@ export function Header(props: HeaderProps) {
       const words = title.split(" ");
       const options: MyTypedOptions = {
         strings: words,
-        typeSpeed: 40,
+        typeSpeed: 100,
         backSpeed: 50,
         backDelay: 1000,
         loop: true,
