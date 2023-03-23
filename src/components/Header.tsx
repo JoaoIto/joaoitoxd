@@ -9,8 +9,8 @@ interface HeaderProps {
 interface MyTypedOptions {
   strings: string[];
   typeSpeed: number;
-  backSpeed: number;
   backDelay: number;
+  loop: boolean;
 }
 
 export function Header(props: HeaderProps) {
@@ -23,8 +23,8 @@ export function Header(props: HeaderProps) {
       const options: MyTypedOptions = {
         strings: words,
         typeSpeed: 100,
-        backSpeed: 150,
         backDelay: 1000,
+        loop: true,
       };
       const typed = new Typed(titleRef.current.lastChild as Element, options);
       return () => {
