@@ -1,4 +1,4 @@
-# <h1 align="center" style="font-size:2rem">[![Typing SVG](<https://readme-typing-svg.herokuapp.com/?color=ffffff&size=35&center=true&vCenter=true&width=1000&lines=JoaoIto+-+Dev+Front+-End+!>)](https://git.io/typing-svg) </h1>
+<h1 align="center" style="font-size:2rem">[![Typing SVG](<https://readme-typing-svg.herokuapp.com/?color=ffffff&size=35&center=true&vCenter=true&width=1000&lines=JoaoIto+-+Dev+Front+-End+!>)](https://git.io/typing-svg) </h1>
 
 ## [InstagramNav](https://joaoitoxd.vercel.app/)<img height="30" src="./public/icons/instagram.png">
 
