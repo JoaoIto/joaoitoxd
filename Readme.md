@@ -15,7 +15,12 @@
 
 - [typed.js](https://github.com/mattboldt/typed.js/): Biblioteca JS para criação do efeito de digitação!
 
+---
 
-<img src="./public/TalkToMoon.svg">
+## Captura gif
+
+<img src="./.github/Gif-joaoitoxd.gif"/>
 
 ---
+
+<img src="./public/TalkToMoon.svg">
