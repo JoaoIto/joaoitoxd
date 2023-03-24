@@ -8,7 +8,7 @@ export const links = style({
   display: "flex",
   alignItems: "center",
   justifyContent: "space-evenly",
-  width: "80%",
+  minWidth: "90%",
   padding: "20px",
   margin: "25px 10px",
   border: "1px solid #fafafa",
