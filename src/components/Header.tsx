@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { styles } from "./index.css";
+import { styles } from "./index.css"; // Importando o objeto de classes CSS
 import Typed from "typed.js";
 
 interface HeaderProps {
@@ -10,6 +10,8 @@ interface MyTypedOptions {
   strings: string[];
   typeSpeed: number;
   backSpeed: number;
+  backDelay: number;
+  loop: boolean;
 }
 
 export function Header(props: HeaderProps) {
@@ -18,10 +20,13 @@ export function Header(props: HeaderProps) {
 
   useEffect(() => {
     if (titleRef.current) {
+      const words = title.split(" ");
       const options: MyTypedOptions = {
-        strings: [title],
-        typeSpeed: 40,
-        backSpeed: 50,
+        strings: words,
+        typeSpeed: 70,
+        backSpeed: 120,
+        backDelay: 1000,
+        loop: true,
       };
       const typed = new Typed(titleRef.current.lastChild as Element, options);
       return () => {
@@ -31,10 +36,15 @@ export function Header(props: HeaderProps) {
   }, [title]);
 
   return (
-    <header className={styles.header}>
+    <header className={styles.header}> {/* Usando a classe gerada dinamicamente */}
       <h3 className={styles.subtitle}>Front-End</h3>
       <h1 ref={titleRef} className={styles.title}>
-        <span>{title}</span>
+        {title.split(" ").map((word, index) => (
+          <span key={index}>
+            {word}
+            {index < title.split(" ").length - 1 ? " " : ""}
+          </span>
+        ))}
       </h1>
       <img
         height="200"

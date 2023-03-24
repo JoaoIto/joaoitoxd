@@ -5,10 +5,9 @@ import { LinkList }   from './components/Link/Links'
 function App() {
   return (
     <div className="App">
-      <Header title=" João Victor "/>
+      <Header title={"João_Victor"}/>
       <LinkList/>
     </div>
-  
   )
 }
 export default App
