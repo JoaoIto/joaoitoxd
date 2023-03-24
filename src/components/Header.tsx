@@ -1,17 +1,9 @@
 import React, { useRef, useEffect } from "react";
 import { styles } from "./index.css"; // Importando o objeto de classes CSS
-import Typed from "typed.js";
+import Typed, { TypedOptions } from "typed.js";
 
 interface HeaderProps {
   title: string;
-}
-
-interface MyTypedOptions {
-  strings: string[];
-  typeSpeed: number;
-  backSpeed: number;
-  backDelay: number;
-  loop: boolean;
 }
 
 export function Header(props: HeaderProps) {
@@ -21,12 +13,13 @@ export function Header(props: HeaderProps) {
   useEffect(() => {
     if (titleRef.current) {
       const words = title.split(" ");
-      const options: MyTypedOptions = {
+      const options: TypedOptions = {
         strings: words,
         typeSpeed: 70,
         backSpeed: 120,
         backDelay: 1000,
         loop: true,
+        stringsElement: undefined,
       };
       const typed = new Typed(titleRef.current.lastChild as Element, options);
       return () => {
