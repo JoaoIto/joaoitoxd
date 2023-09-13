@@ -27,7 +27,7 @@ function App() {
         window.location.href = url;
     };
     return (
-            <div className="w-screen h-screen flex-col items-center justify-around text-center">
+            <div className="w-screen h-screen mt-10 flex-col items-center justify-around text-center">
                 <div className="flex flex-col items-center justify-center text-center">
                     <div className="flex items-center">
                     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
@@ -64,9 +64,10 @@ function App() {
 
                         <TooltipTrigger
                             onClick={() => openSocialMedia('https://www.instagram.com/joaoitoxd')}
-                            className="flex font-medium items-center justify-evenly w-60 text-white bg-purple-500 p-4 m-2
+                            className="flex font-medium items-center justify-evenly w-60 text-white bg-indigo-500 p-4 m-2
                             rounded border border-solid border-purple-200">
-                            <img width="40" src="./src/assets/instagram.png" alt="Logo do Instagram"/> Instagram
+                            <img width="40" src="./src/assets/instagram.png" alt="Logo do Instagram"/>
+                            Instagram
                         </TooltipTrigger>
 
                         <TooltipContent>
@@ -112,9 +113,9 @@ function App() {
                         <Tooltip>
                             <TooltipTrigger
                                 onClick={() => openSocialMedia('mailto:joaovictorpfr@gmail.com')}
-                                className="w-60 flex font-medium items-center justify-evenly text-white bg-red-400 p-4 m-2
+                                className="w-60 flex font-medium items-center justify-evenly text-white bg-slate-500 p-4 m-2
                                 rounded border border-solid border-red-300">
-                                <img width="40" src="./src/assets/new.png" alt="Logo do Instagram"/>
+                                <img width="40" src="./src/assets/gmail.png" alt="Logo do Instagram"/>
                                 Gmail
 
                             </TooltipTrigger>
