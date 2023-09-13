@@ -62,6 +62,7 @@ function App() {
                 <TooltipProvider>
                     <Tooltip>
                         <TooltipTrigger onClick={() => openSocialMedia('https://www.instagram.com/joaoitoxd')} className="w-60 text-white bg-purple-600 p-4 m-2 rounded border border-solid border-purple-200">Instagram</TooltipTrigger>
+                        <AvatarImage src="./assets/instagram.png" />
                         <TooltipContent>
                             <p>Visite agora!</p>
                         </TooltipContent>
