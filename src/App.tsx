@@ -47,11 +47,13 @@ function App() {
                             </Avatar>
                         </div>
                     </div>
-                        <Alert className="w-60">
-                    <Terminal className="h-4 w-4" />
+                        <Alert className="h-36 w-80">
+                    <Terminal className="h-6 w-8" />
                     <AlertTitle>Explore!</AlertTitle>
-                    <AlertDescription>
+                    <AlertDescription className="">
                         Esse é meu site pessoal de links! Bonitin né?
+                        É pra você que quer descobir um pouco mais sobre mim, quer saber mais
+                        do que faço, e minhas redes sociais!
                     </AlertDescription>
                 </Alert>
                 </div>
