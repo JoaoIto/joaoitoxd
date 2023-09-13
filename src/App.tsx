@@ -66,7 +66,7 @@ function App() {
                             onClick={() => openSocialMedia('https://www.instagram.com/joaoitoxd')}
                             className="flex font-medium items-center justify-evenly w-60 text-white bg-indigo-500 p-4 m-2
                             rounded border border-solid border-purple-200">
-                            <img width="40" src="./src/assets/instagram.png" alt="Logo do Instagram"/>
+                            <img width="40" src="https://github.com/JoaoIto/joaoitoxd/blob/new-version/public/instagram.png?raw=true" alt="Logo do Instagram"/>
                             Instagram
                         </TooltipTrigger>
 
@@ -82,7 +82,7 @@ function App() {
                             onClick={() => openSocialMedia('https://github.com/joaoito')}
                             className="w-60 flex flex font-medium items-center justify-evenly font-medium items-center justify-evenly text-white bg-slate-900 p-4 m-2
                             rounded border border-solid border-slate-400">
-                            <img width="40" src="./src/assets/github.png" alt="Logo do Instagram"/>
+                            <img width="40" src="https://github.com/JoaoIto/joaoitoxd/blob/new-version/public/github.png?raw=true" alt="Logo do Instagram"/>
                             GitHub
 
                         </TooltipTrigger>
@@ -98,7 +98,7 @@ function App() {
                         <TooltipTrigger
                             onClick={() => openSocialMedia('https://www.linkedin.com/in/jo%C3%A3o-victor-p%C3%B3voa-fran%C3%A7a-97502420b/')}
                             className="w-60 text-white flex font-medium items-center justify-evenly bg-blue-500 p-4 m-2 rounded border border-solid border-blue-100">
-                            <img width="40" src="./src/assets/linkedin.png" alt="Logo do Instagram"/>
+                            <img width="40" src="https://github.com/JoaoIto/joaoitoxd/blob/new-version/public/linkedin.png?raw=true" alt="Logo do Instagram"/>
                             Linkedin
 
                         </TooltipTrigger>
@@ -115,7 +115,7 @@ function App() {
                                 onClick={() => openSocialMedia('mailto:joaovictorpfr@gmail.com')}
                                 className="w-60 flex font-medium items-center justify-evenly text-white bg-slate-500 p-4 m-2
                                 rounded border border-solid border-red-300">
-                                <img width="40" src="./src/assets/gmail.png" alt="Logo do Instagram"/>
+                                <img width="40" src="https://github.com/JoaoIto/joaoitoxd/blob/new-version/public/gmail.png?raw=true" alt="Logo do Instagram"/>
                                 Gmail
 
                             </TooltipTrigger>
