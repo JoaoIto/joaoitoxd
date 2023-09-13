@@ -95,7 +95,7 @@ function App() {
                         </Tooltip>
                     </TooltipProvider>
 
-                    <Accordion className="flex w-60 items-center justify-center" type="single" collapsible>
+                    <Accordion className="flex w-5/6  items-center justify-center" type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger>Mas o que o joão faz?</AccordionTrigger>
                             <AccordionContent>
@@ -105,7 +105,7 @@ function App() {
                         </AccordionItem>
                     </Accordion>
 
-                    <Accordion className="flex w-60  items-center justify-center" type="single" collapsible>
+                    <Accordion className="flex w-5/6  items-center justify-center" type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger>Você é programador a quanto tempo?</AccordionTrigger>
                             <AccordionContent>
@@ -117,7 +117,7 @@ function App() {
                         </AccordionItem>
                     </Accordion>
 
-                    <Accordion className="flex w-60  items-center justify-center" type="single" collapsible>
+                    <Accordion className="flex w-5/6   items-center justify-center" type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger>Por quê escolheu essa área?</AccordionTrigger>
                             <AccordionContent>
@@ -127,7 +127,7 @@ function App() {
                         </AccordionItem>
                     </Accordion>
 
-                    <Accordion className="flex w-60 items-center justify-center" type="single" collapsible>
+                    <Accordion className="flex w-5/6  items-center justify-center" type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger>Precisava de um serviço de Marketing para minha loja, posso te contactar?</AccordionTrigger>
                             <AccordionContent>
