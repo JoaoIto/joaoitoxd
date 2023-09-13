@@ -59,7 +59,7 @@ function App() {
                 <div className="flex flex-col items-center">
                 <TooltipProvider>
                     <Tooltip>
-                        <TooltipTrigger onClick={() => openSocialMedia('https://www.instagram.com/joaoitoxd')} className="w-60 bg-purple-600 p-4 m-2 rounded border border-solid border-purple-200">Instagram</TooltipTrigger>
+                        <TooltipTrigger onClick={() => openSocialMedia('https://www.instagram.com/joaoitoxd')} className="w-60 text-white bg-purple-600 p-4 m-2 rounded border border-solid border-purple-200">Instagram</TooltipTrigger>
                         <TooltipContent>
                             <p>Visite agora!</p>
                         </TooltipContent>
@@ -68,7 +68,7 @@ function App() {
 
                 <TooltipProvider>
                     <Tooltip>
-                        <TooltipTrigger onClick={() => openSocialMedia('https://github.com/joaoito')} className="w-60 bg-slate-900 p-4 m-2 rounded border border-solid border-slate-400">GitHub</TooltipTrigger>
+                        <TooltipTrigger onClick={() => openSocialMedia('https://github.com/joaoito')} className="w-60 text-white bg-slate-900 p-4 m-2 rounded border border-solid border-slate-400">GitHub</TooltipTrigger>
                         <TooltipContent>
                             <p>projetinhos!</p>
                         </TooltipContent>
@@ -77,7 +77,7 @@ function App() {
 
                 <TooltipProvider>
                     <Tooltip>
-                        <TooltipTrigger onClick={() => openSocialMedia('https://www.linkedin.com/in/jo%C3%A3o-victor-p%C3%B3voa-fran%C3%A7a-97502420b/')} className="w-60 bg-blue-500 p-4 m-2 rounded border border-solid border-blue-100">Linkedin</TooltipTrigger>
+                        <TooltipTrigger onClick={() => openSocialMedia('https://www.linkedin.com/in/jo%C3%A3o-victor-p%C3%B3voa-fran%C3%A7a-97502420b/')} className="w-60 text-white  bg-blue-500 p-4 m-2 rounded border border-solid border-blue-100">Linkedin</TooltipTrigger>
                         <TooltipContent>
                             <p>Trabalho e mais trabalho...</p>
                         </TooltipContent>
@@ -86,7 +86,7 @@ function App() {
 
                     <TooltipProvider>
                         <Tooltip>
-                            <TooltipTrigger onClick={() => openSocialMedia('mailto:joaovictorpfr@gmail.com')} className="w-60 bg-red-600 p-4 m-2 rounded border border-solid border-red-300">Gmail</TooltipTrigger>
+                            <TooltipTrigger onClick={() => openSocialMedia('mailto:joaovictorpfr@gmail.com')} className="w-60 text-white bg-red-600 p-4 m-2 rounded border border-solid border-red-300">Gmail</TooltipTrigger>
                             <TooltipContent>
                                 <p>Manda lá!</p>
                             </TooltipContent>
